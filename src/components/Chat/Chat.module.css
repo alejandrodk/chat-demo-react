@@ -1,0 +1,36 @@
+.container {
+    width: 330px;
+    height: 500px;
+    border-radius : 15px;
+    border: 1px solid gray;
+    overflow: auto;
+    font-family: roboto;
+    background-image: url(https://i.redd.it/qwd83nc4xxf41.jpg);
+    background-size: 100%;
+}
+.bubble {
+    display : flex;
+    flex-wrap : wrap;
+    background : white;
+    border-radius : 10px;
+    padding : 4px;
+    margin : 10px;
+}
+.message {
+    width : 100%;
+    font-size : 14px;
+    order : 3;
+    text-align : justify;
+}
+.name {
+    order : 2;
+    font-size : 15px;
+    display : flex;
+    align-items : center;
+    margin-left : 10px;
+}
+.avatar {
+    width : 50px;
+    border-radius : 50%;
+    order : 1
+}
